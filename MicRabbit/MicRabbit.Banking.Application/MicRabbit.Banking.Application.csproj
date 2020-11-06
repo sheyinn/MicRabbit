@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MicRabbit.Banking.Domain\MicRabbit.Banking.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
