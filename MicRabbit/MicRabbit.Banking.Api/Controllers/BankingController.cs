@@ -11,7 +11,7 @@ using Microsoft.Extensions.Logging;
 namespace MicRabbit.Banking.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class BankingController : ControllerBase
     {
         private readonly IBankingService _bankingService;

@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 namespace MicRabbit.Transfer.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class TransferController : ControllerBase
     {
         private readonly ITransferService _transferService;
