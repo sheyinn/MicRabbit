@@ -14,7 +14,6 @@ namespace MicRabbit.Banking.Api.Controllers
     [Route("[controller]")]
     public class BankingController : ControllerBase
     {
-        private readonly ILogger<BankingController> _logger;
         private readonly IBankingService _bankingService;
 
         public BankingController(IBankingService bankingService)
